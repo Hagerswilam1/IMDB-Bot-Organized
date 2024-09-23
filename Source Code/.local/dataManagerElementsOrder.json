@@ -1,0 +1,160 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSearch&Flowchart_3",
+        "strSearchPrompt&Flowchart_3",
+        "strSelectedOption&Sequence_1",
+        "srtName&Sequence_1",
+        "strRate&Sequence_1",
+        "strYear&Sequence_1",
+        "strPG&Sequence_1",
+        "strDuration&Sequence_1",
+        "strResultList&Sequence_1",
+        "continueSearch&Sequence_1",
+        "strFinalResult&Flowchart_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Google_Search.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_4",
+        "strSearch&Sequence_18",
+        "boolPostExists&Sequence_19"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strSearchPrompt",
+        "in_intTimeOut",
+        "in_intRetryNumber",
+        "in_tsRetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Google_Launch.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPostExists&Sequence_19"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intTimeOut",
+        "in_intRetryNumber",
+        "in_tsRetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "IMDB_Search.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_4",
+        "boolPostExists&Sequence_19"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intTimeOut",
+        "in_strSearchPrompot",
+        "in_intRetryNumber",
+        "in_tsRetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Google_FirstLink.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_4",
+        "boolPostExists&Sequence_19"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intTimeOut",
+        "in_intRetryNumber",
+        "in_tsRetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "IMDB_Extracted_Data.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "elementExists&Sequence_24",
+        "boolPreExists&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intTimeOut",
+        "out_strRate",
+        "out_strDuration",
+        "out_strYear",
+        "out_strPG",
+        "out_strName",
+        "in_intRetryNumber",
+        "in_tsRetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "IMDB_Open_FirstTitle.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_4",
+        "boolPostExists&Sequence_19"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intTimeOut",
+        "in_intRetryNumber",
+        "in_tsRetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Notepad_Write_List.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPostExists&Sequence_24",
+        "boolPostExists&Sequence_23",
+        "strSearchResult&Sequence_7"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strResultList",
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Closing_Tab.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intTimeOut",
+        "in_intRetryNumber",
+        "in_tsRetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
