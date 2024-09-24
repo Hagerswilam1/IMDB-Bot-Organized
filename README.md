@@ -1,4 +1,4 @@
-<h2>Automated IMDb Data Extraction Tool</h2>
+<h2>Automated IMDb Data Extraction</h2>
 <p>
     Developed an automated IMDb data extraction tool to retrieve movie and series details, including ratings, titles, and release dates. Enhanced the tool with error handling to efficiently manage missing or multiple results using UiPath.
 </p>
