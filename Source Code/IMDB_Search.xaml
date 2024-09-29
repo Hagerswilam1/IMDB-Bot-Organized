@@ -14,7 +14,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1150.4,4156.8</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1150.4,4157.6</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Open_ACME_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -123,7 +123,7 @@
       <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Description:  Search in IMDB&#xA;PreCondition: IMDB Search Bar is Exists&#xA;PostCondition:  Search Exists&#xA;&#xA;InArg:&#xA;in_intRetryNumber&#xA;in_tsRetryInterval&#xA;in_intTimeOut&#xA;in_strSearchPrompot&#xA;&#xA;OutArg:&#xA;" DisplayName="IMDB_Search" sap:VirtualizedContainerService.HintSize="715.2,4092" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Description:  Search in IMDB&#xA;PreCondition: IMDB Search Bar is Exists&#xA;PostCondition:  Search Exists&#xA;&#xA;InArg:&#xA;in_intRetryNumber&#xA;in_tsRetryInterval&#xA;in_intTimeOut&#xA;in_strSearchPrompot&#xA;&#xA;OutArg:&#xA;" DisplayName="IMDB_Search" sap:VirtualizedContainerService.HintSize="715.2,4092.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -154,7 +154,7 @@
                   </sap:WorkflowViewStateService.ViewState>
                   <ui:UiElementExists DisplayName="Element Exists 'IMDB Search Bar Exist'" Exists="[boolPreExists]" sap:VirtualizedContainerService.HintSize="449.6,139.2" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
                     <ui:UiElementExists.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="47d3659d-b53b-4da0-9341-1c80f8dee25f" InformativeScreenshot="ff76846d17dd043b278013a3e6ba69d5" Selector="&lt;html app='chrome.exe' title='IMDb: Ratings, Reviews, and Where to Watch the Best Movies &amp;amp; TV Shows' /&gt;&lt;webctrl id='suggestion-search' /&gt;" TimeoutMS="[in_intTimeOut]" WaitForReady="COMPLETE" />
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="47d3659d-b53b-4da0-9341-1c80f8dee25f" InformativeScreenshot="f13a489a5b3bd572b5ed81131b3169fe" Selector="&lt;html app='chrome.exe' title='*IMDb*' /&gt;&lt;webctrl id='suggestion-search' /&gt;" TimeoutMS="[in_intTimeOut]" WaitForReady="COMPLETE" />
                     </ui:UiElementExists.Target>
                   </ui:UiElementExists>
                   <If Condition="[boolPreExists]" sap:VirtualizedContainerService.HintSize="449.6,792.8" sap2010:WorkflowViewState.IdRef="If_1">
@@ -194,7 +194,7 @@
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'IMDB Search'" sap:VirtualizedContainerService.HintSize="449.6,691.2" sap2010:WorkflowViewState.IdRef="BrowserScope_4" InformativeScreenshot="e10bd16fb895d47346cd38a0562dca1d" Selector="&lt;html app='chrome.exe' /&gt;">
+                  <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'IMDB Search'" sap:VirtualizedContainerService.HintSize="449.6,691.2" sap2010:WorkflowViewState.IdRef="BrowserScope_4" InformativeScreenshot="520bcf7c418beb883d12dc57620243ee" Selector="&lt;html app='chrome.exe' title='*IMDb*' /&gt;">
                     <ui:BrowserScope.Body>
                       <ActivityAction x:TypeArguments="x:Object">
                         <ActivityAction.Argument>
@@ -227,7 +227,7 @@
                           <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="353.6,56.8" sap2010:WorkflowViewState.IdRef="MaximizeWindow_1" />
                           <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="Type Into 'search in IMDB'" EmptyField="True" sap:VirtualizedContainerService.HintSize="353.6,188" sap2010:WorkflowViewState.IdRef="TypeInto_2" SimulateType="True" Text="[in_strSearchPrompot]">
                             <ui:TypeInto.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8b848194-747d-4ab9-80ac-07ab30ee0e9f" InformativeScreenshot="8337d121582fc72d59b8dab0edf753d8" Selector="&lt;webctrl id='suggestion-search' tag='INPUT' /&gt;">
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8b848194-747d-4ab9-80ac-07ab30ee0e9f" InformativeScreenshot="8337d121582fc72d59b8dab0edf753d8" Selector="&lt;webctrl id='suggestion-search' /&gt;">
                                 <ui:Target.TimeoutMS>
                                   <InArgument x:TypeArguments="x:Int32" />
                                 </ui:Target.TimeoutMS>
@@ -249,7 +249,7 @@
                               </ui:CursorPosition>
                             </ui:Click.CursorPosition>
                             <ui:Click.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d2b13c53-5e23-4fb1-be05-86148f85402d" InformativeScreenshot="9e0e6ad2ed4d661439fa8e2d894daa2f" Selector="&lt;webctrl parentid='suggestion-search-button' tag='svg' /&gt;">
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d2b13c53-5e23-4fb1-be05-86148f85402d" InformativeScreenshot="9e0e6ad2ed4d661439fa8e2d894daa2f" Selector="&lt;webctrl id='suggestion-search-button' /&gt;">
                                 <ui:Target.TimeoutMS>
                                   <InArgument x:TypeArguments="x:Int32" />
                                 </ui:Target.TimeoutMS>

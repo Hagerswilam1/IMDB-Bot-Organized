@@ -12,17 +12,17 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "strSearch&Flowchart_3",
-        "strSearchPrompt&Flowchart_3",
         "strSelectedOption&Sequence_1",
         "srtName&Sequence_1",
         "strRate&Sequence_1",
         "strYear&Sequence_1",
         "strPG&Sequence_1",
         "strDuration&Sequence_1",
-        "strResultList&Sequence_1",
         "continueSearch&Sequence_1",
-        "strFinalResult&Flowchart_3"
+        "strSearchPrompt&Flowchart_3",
+        "strSearch&Flowchart_3",
+        "strFinalResult&Flowchart_3",
+        "strSearchResult&Flowchart_3"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],

@@ -3,7 +3,7 @@
     <x:Property Name="in_intRetryNumber" Type="InArgument(x:Int32)" />
     <x:Property Name="in_tsRetryInterval" Type="InArgument(x:TimeSpan)" />
     <x:Property Name="in_intTimeOut" Type="InArgument(x:Int32)" />
-    <x:Property Name="in_strResultList" Type="InArgument(x:String)" />
+    <x:Property Name="in_strResultList" Type="InArgument(scg:List(x:String))" />
   </x:Members>
   <this:Open_ACME.in_intRetryNumber>
     <InArgument x:TypeArguments="x:Int32" />
